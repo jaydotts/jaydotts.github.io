@@ -26,3 +26,30 @@ color: rgb(235, 25, 221);
     margin-right: auto;
     width: 30%;
   }
+.paragraph {
+    color: rgb(241, 116, 250);
+    text-align: center;
+  }
+  a:link {
+    color: rgb(251, 251, 251);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(130, 122, 248);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  /* .image {
+    position: relative; */
+/* }
+  .center:hover:after {
+    position: relative;
+    content: attr(title);
+    display: inline-block;
+    left: 2px;
+    top: -200px;
+    padding: 3px;
+    background-color: rgb(239, 185, 239);
+    color: rgb(71, 10, 92);
+} */
