@@ -6,6 +6,7 @@
 <style>
 * {
   box-sizing: border-box;
+  background-attachment: fixed;
 }
 
 /* Add a gray background color with some padding */
@@ -16,12 +17,12 @@ body {
 
 /* Header/Blog Title */
 .header {
-  padding: 1px;
+  color:rgb(0, 255, 242);
   font-size: 20px;
   text-align: center;
-  background: rgb(94, 0, 125);
+  font-family: 'Georgia', Times, serif;
+  opacity: 60%;
 }
-
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
@@ -38,16 +39,16 @@ body {
 
 /* Fake image */
 .fakeimg {
-  background-color: #aaa;
   width: 100%;
   padding: 20px;
 }
 
 /* Add a card effect for articles */
 .card {
-   background-color: white;
-   padding: 20px;
+   padding: 50px;
    margin-top: 20px;
+   color:pink;
+   font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 /* Clear floats after the columns */
@@ -74,22 +75,36 @@ body {
 }
 </style>
 </head>
+
 <body>
+  <div class="topnav">
+    <a href="../index.html">Home</a>
+    <a class="active" href="../pages/about.html">About</a>
+    <a href="../pages/under_construction.html">Contact</a>
+</div>
 
 <div class="header">
-  <h2>Blog Name</h2>
+  <h2>Down the Rabbit Hole</h2>
+  a catalogue of bizarre natural phenomena
 </div>
 
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <h2>
+        Erodium flowers use moisture-driven drills to help bury their seeds
+      </h2>
+      <h5></h5>
+      <div class="fakeimg" style="height:350px;">
+        <img src="../img/spiral_seed.jpg" style="height: 300px; width:300px;">
+      </div>
+      <p>
+        These seeds eject themselves from the flower using elastic energy stored
+        during the seed's development. After landing, wet/dry cycles cause them to ratchet themselves
+        into the soil. 
+      </p>
     </div>
-    <div class="card">
+    <!-- <div class="card">
       <h2>TITLE HEADING</h2>
       <h5>Title description, Sep 2, 2017</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
@@ -114,11 +129,7 @@ body {
       <p>Some text..</p>
     </div>
   </div>
-</div>
-
-<div class="footer">
-  <h2>Footer</h2>
-</div>
+</div> -->
 
 </body>
 </html>
